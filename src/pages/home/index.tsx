@@ -12,7 +12,7 @@ export default function Home() {
                         <button className='font-semibold py-3 px-10 text-white bg-green-600 hover:bg-green-500 rounded'>Vamos começar</button>
                     </div>
                     <figure className='flex flex-1 justify-center items-center pt-10'>
-                        <img src={Destaque} alt="" className='max-w-sm xl:max-w-5xl p-5' />
+                        <img src={Destaque} alt="" className='max-w-[320px] xl:max-w-5xl' />
                     </figure>
                 </section>
 
@@ -52,7 +52,7 @@ export default function Home() {
 
                 <section className='max-w-7xl mx-auto py-5 flex px-10 lg:px-0 flex-wrap-reverse lg:flex-nowrap flex-auto justify-evenly items-center' id='sobre'>
                     <figure className='flex flex-1 justify-center items-center pt-10'>
-                        <img src={Equipe} alt="" className='max-w-sm xl:max-w-3xl' />
+                        <img src={Equipe} alt="" className='max-w-[320px] xl:max-w-3xl' />
                     </figure>
                     <div>
                         <h1 className='text-3xl lg:text-5xl font-bold text-green-700'>Sobre nós</h1>
