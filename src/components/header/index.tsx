@@ -1,3 +1,4 @@
+import { Logo } from '../../assets'
 import { List, Moon, Sun } from "@phosphor-icons/react";
 import { useAppContext } from "../../context/AppContext";
 
@@ -14,14 +15,14 @@ export default function Header() {
             <nav className="bg-white dark:bg-neutral-950 md:border-b border-b-green-700">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
                     <a href="#" className="flex items-center">
-                        <span className="logo font-bold italic text-3xl text-green-700">Dream Agency</span>
+                        <img src={Logo} alt="Logo Dream Agency" className='h-20' />
                     </a>
                     <button onClick={() => setMenu(!menu)} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-green-700 dark:text-green-700  dark:focus:ring-green-700">
                         <List size={40} weight="bold" className="dark:text-white" />
                     </button>
 
                     <div onClick={() => setMenu(false)}
-                        className={`md:block md:w-auto w-full bg-white dark:bg-neutral-950 ${menu ? "visible absolute top-[70px] right-0" : "hidden"}`}
+                        className={`md:block md:w-auto w-full bg-white dark:bg-neutral-950 ${menu ? "visible absolute top-[90px] right-0" : "hidden"}`}
                     >
                         <ul className="font-normal text-xl flex flex-col p-4 md:p-0 border-b border-green-600 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white md:dark:bg-neutral-950 ">
                             <li>
