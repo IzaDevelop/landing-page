@@ -72,12 +72,12 @@ export default function Home() {
                         <form className='mx-auto max-w-2xl'>
                             <div className='pb-5'>
                                 <label htmlFor="email" className="block mb-2 text-md text-white">E-mail</label>
-                                <input type="email" id="email" className=" border text-md rounded-lg block w-full p-2.5 dark:bg-neutral-900 placeholder-gray-400 dark:placeholder-gray-400" placeholder="nome@gmail.com" />
+                                <input type="email" id="email" className="text-md rounded-lg block w-full p-2.5 dark:bg-neutral-900 placeholder-gray-400 dark:placeholder-gray-400" placeholder="nome@gmail.com" />
                             </div>
 
                             <div className='pb-5'>
                                 <label htmlFor="message" className="block mb-2 text-md text-white">Mensagem</label>
-                                <textarea id="message" className="block p-2.5 w-full text-md border rounded-lg dark:bg-neutral-900 placeholder-gray-400 dark:placeholder-gray-400 min-h-[150px]" placeholder="Escreva sua mensagem..."></textarea>
+                                <textarea id="message" className="block p-2.5 w-full text-md rounded-lg dark:bg-neutral-900 placeholder-gray-400 dark:placeholder-gray-400 min-h-[150px]" placeholder="Escreva sua mensagem..."></textarea>
                             </div>
 
                             <div className='flex justify-end'>
