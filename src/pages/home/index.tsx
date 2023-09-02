@@ -12,7 +12,7 @@ export default function Home() {
                         <button className='font-semibold py-3 px-10 text-white bg-green-600 hover:bg-green-500 rounded'>Vamos começar</button>
                     </div>
                     <figure className='flex flex-1 justify-center items-center pt-10'>
-                        <img src={Destaque} alt="" className='max-w-sm xl:max-w-5xl' />
+                        <img src={Destaque} alt="" className='max-w-sm xl:max-w-5xl p-5' />
                     </figure>
                 </section>
 
