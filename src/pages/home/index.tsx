@@ -7,8 +7,8 @@ export default function Home() {
             <article className='bg-white dark:bg-neutral-900 text-neutral-950 dark:text-white'>
                 <section className='max-w-7xl mx-auto px-4 xl:px-0 pt-10 pb-5 flex flex-wrap lg:flex-nowrap flex-auto justify-evenly items-center' id='home'>
                     <div>
-                        <h1 className='text-3xl lg:text-5xl font-bold text-green-700'>Códigos, Design e Estratégia em um só lugar</h1>
-                        <p className='text-md md:text-lg font-light py-5'>Trabalhamos incansavelmente para garantir que a sua presença online seja um investimento valioso e um fator-chave para o sucesso do seu negócio. Contate-nos hoje e descubra como podemos levar sua presença online para o próximo nível.</p>
+                        <h1 className='font-sans text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto text-green-700'>Códigos, Design e Estratégia em um só lugar</h1>
+                        <p className='text-md md:text-lg py-5'>Trabalhamos incansavelmente para garantir que a sua presença online seja um investimento valioso e um fator-chave para o sucesso do seu negócio. Contate-nos hoje e descubra como podemos levar sua presença online para o próximo nível.</p>
                         <button className='font-semibold py-3 px-10 text-white bg-green-800 hover:bg-green-700 rounded'>Saber mais</button>
                     </div>
                     <figure className='flex flex-1 justify-center items-center pt-10'>
